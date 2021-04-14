@@ -1,0 +1,321 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::before,::after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    color: #0B132A;
+}
+
+.strong__element{
+    font-weight: 500;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+/* Container
+============ */
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Header
+============ */
+
+header{
+    padding-top: 50px;
+    
+}
+
+.header__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+    
+    
+}
+
+.logo{
+
+}
+
+.navigation{
+    
+}
+
+.navigation__item{
+    text-decoration: none;
+    color: #4F5665;
+    margin-left: 40px;
+}
+
+.navigation__item:first-child{
+    margin-left: 0px;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 50px;
+    background-color: #F53855;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn--long{
+    width: 200px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    opacity: 0.8;
+    transition: 0.3s;
+
+}
+
+.btn--long:hover{
+    opacity: 1;
+}
+
+/* Intro
+============= */
+
+.intro{ 
+
+}
+
+.intro__block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.intro__info{
+    width: 50%;
+    
+}
+.main__prod{
+    width: 555px;
+    font-size: 50px;
+    line-height: 1.4em;
+    padding: 15px 40px 15px 0;
+    margin-bottom: 20px;
+}
+
+.main__paragraph{
+    width: 555px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: 50px;
+
+}
+
+.intro__img{
+    width: 50%;
+    display: inline-block;
+}
+
+
+.product__details{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    margin-bottom: 40px;
+}
+
+.details__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.details__number{
+    line-height: 0.4em;
+    margin-left: 30px;
+}
+
+.prod__numb{
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+/* Features
+============= */
+
+.features__elements{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 160px;
+}
+
+.features__info{
+    margin-left: 120px;
+
+}
+
+
+.features__title{
+    width: 380px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.35em;
+    color: #0B132A,;
+    margin-bottom: 20px;
+}
+
+.features__text{
+    width: 420px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.features__list{
+    list-style: none;
+    margin-top: 70px;
+    list-style-image: url(images/icons/list_icon.png);
+    
+    margin: 3px 0;
+    overflow: auto;
+    
+}
+
+.features__list__item{
+    line-height: 1.6em;
+
+    
+
+}
+
+
+
+/* Plan
+============= */
+
+.plan__info{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.plan__title{
+    margin-bottom: 30px;
+}
+
+.plan__type{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-bottom: 200px;
+    align-items: center;
+}   
+
+
+
+.plan__price-item{
+    width: 30%;
+    transition: 0.2s ease-in;
+    opacity: 0.8;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+
+}
+
+.img__plan{
+    text-align: center;
+    padding: 60px 80px 40px 80px;
+}
+
+.plan__title__item{
+    text-align: center;
+    
+}
+
+.features__list--plan{
+    margin: 30px;
+    padding: 0px 40px;
+    margin-bottom: 120px;
+    font-size: 14px;
+    list-style-position: outside;
+}
+
+.plan__price{
+    text-align: center;
+    font-weight: 400;
+
+}
+
+
+.plan__price-item .btn{
+    margin: 20px 90px 30px;
+    
+}
+
+
+.plan__price-item:hover{
+    border: 2px solid #DDDDDD;
+    border-radius: 20px;
+    opacity: 1;
+
+}
+
+
+/* global network
+================== */
+
+.global__image{
+    margin-top: 130px;
+    width: 100%;
+    padding: 0px 40px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
